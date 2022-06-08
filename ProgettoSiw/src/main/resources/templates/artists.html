@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Artisti</title>
+    <link rel="stylesheet" href="../static/css/artists.css" th:href="@{/css/artists.css}">
+</head>
+<body>
+<div class="grid">
+    <nav>
+        <a th:href="@{/index}">
+            <h1>Galleria Nazionale</h1>
+        </a>
+
+        <div class="scale-up-center">
+            <a th:href="@{/artists}">Artisti</a>
+        </div>
+        <div class="scale-up-center">
+            <a th:href="@{/collections}">Collezioni</a>
+        </div>
+
+        <div class="scale-up-center">
+            <a th:href="@{/artworks}">Opere</a>
+        </div>
+
+        <div class="scale-up-center">
+            <a th:href="@{/login}">Area riservata</a>
+        </div>
+
+    </nav>
+
+    <div class="artists">
+        <form action="" method="post">
+            <div>
+                <label for="artist"></label>
+                <input type="text" name="artistSurname" id="artist" placeholder="🔎 es. Lucio Fontana">
+                <button type="submit">Cerca →</button>
+            </div>
+        </form>
+
+        <div class="all-artists">
+            <div th:each="artist : ${artists}">
+                <hr>
+                <div class="artist-info">
+                    <!--/*@thymesVar id="artist" type="it.uniroma3.siw.ProgettoSIW.model.Artist"*/-->
+                    <a href="artist.html" th:href="'/artist/'+${artist.getId()}">
+                        <h3 th:text="|${artist.name} ${artist.surname}|">Lucio Fontana</h3>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

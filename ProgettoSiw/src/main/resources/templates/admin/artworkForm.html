@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../static/css/adminForm.css" th:href="@{/css/adminForm.css}">
+    <title>Title</title>
+
+</head>
+<body>
+
+<div class="grid">
+    <h1>Aggiungi un'opera</h1>
+    <!--/*@thymesVar id="artwork" type="it.uniroma3.siw.ProgettoSIW.model.Artwork"*/-->
+    <form th:action="@{/admin/artwork}" method="post" th:object="${artwork}">
+        <label for="name">Titolo</label>
+        <input type="text" id="name" th:field="*{title}">
+
+        <label for="year">Anno</label>
+        <input type="number" id="year" th:field="*{year}">
+
+        <label for="desc">Descrizione</label>
+        <textarea id="desc" th:field="*{description}"></textarea>
+
+        <label for="pu">Nome file</label>
+        <input type="text" id="pu" th:field="*{photoURL}">
+
+        <!--/*@thymesVar id="artist" type="it.uniroma3.siw.ProgettoSIW.model.Artist"*/-->
+        <label for="artist">Artista</label>
+        <select id="artist" th:field="*{artist}">
+            <option th:each="artist : ${artists}" th:value="${artist.id}" th:text="|${artist.name} ${artist.surname}|">
+                Lucio Fontana
+            </option>
+        </select>
+
+        <!--/*@thymesVar id="artCollection" type="it.uniroma3.siw.ProgettoSIW.model.ArtCollection"*/-->
+        <label for="collection">Collezione</label>
+        <select id="collection" th:field="*{artCollection}">
+            <option th:each="artCollection : ${artCollections}" th:value="${artCollection.id}" th:text="${artCollection.name}">
+                Permanente
+            </option>
+        </select>
+
+
+        <div>
+            <button type="reset" onclick="goBack()">Annulla</button>
+            <button type="submit">Crea</button>
+        </div>
+    </form>
+</div>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>

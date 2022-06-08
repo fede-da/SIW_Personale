@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+    	<link rel="stylesheet" th:href="@{/css/style.css}" href="../static/css/style.css">
+    	<meta charset="UTF-8">
+    	<title>New NFT</title>
+	</head>
+	
+	<header th:replace="fragments/home_and_next.html :: intestazione"></header>
+	
+	<body>
+		<ul class="people" th:each= "nft : ${nfts}">
+        	<li >
+    			<a th:text="${nft.title}" > <img th:src="${nft.image}"  style="max-height:500px;max-width:500px;height:auto;width:auto;"> Ciao</a>
+    		</li>
+        </ul>
+	
+	</body>
+</html>

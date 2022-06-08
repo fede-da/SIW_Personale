@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+    	<link rel="stylesheet" th:href="@{/css/style.css}" href="../static/css/style.css">
+    	
+    	<meta charset="UTF-8">
+    	<title>Market</title>
+	</head>
+	
+	<header th:replace="fragments/home_and_next.html :: intestazione"></header>
+	
+	<body>
+	
+	<div>
+	<h4>Tutti i nostri NFT :</h4>
+    	
+    	<ul>
+    		<li th:each= "nft : ${nfts}">
+    			<a th:text="${nft.title}" > Ciao</a>
+    		</li>
+    	
+    	</ul>
+    	
+		<!--  <ul>
+			<li th:each="prodotto : ${prodotti}">
+				<a href="prodotto.html" 
+				   th:href="@{'/prodotto' + '/' + ${prodotto.id}}" 
+				   th:text="${prodotto.nome}">Penna rossa</a>
+			</li>
+		</ul>  -->
+	</div>
+	
+	</body>
+	

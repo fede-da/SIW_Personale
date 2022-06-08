@@ -1,0 +1,35 @@
+.scale-up-center:hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+@keyframes read {
+    0% {
+        backdrop-filter: blur(0px);
+    }
+
+    100% {
+        backdrop-filter: blur(3px) invert(100%);
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes scale-up {
+    from {
+        height: 400px;
+    }
+
+    to {
+        height: 600px;
+    }
+}

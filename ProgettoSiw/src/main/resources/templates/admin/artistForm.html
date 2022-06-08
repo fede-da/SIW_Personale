@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../static/css/adminForm.css" th:href="@{/css/adminForm.css}">
+    <title>Inserisci artista</title>
+</head>
+<body>
+<div class="grid">
+    <h1>Aggiungi un artista</h1>
+    <!--/*@thymesVar id="artist" type="it.uniroma3.siw.ProgettoSIW.model.Artist"*/-->
+    <form th:action="@{/admin/artist}" method="post" th:object="${artist}">
+        <label for="name">Nome</label>
+        <input type="text" id="name" th:field="*{name}">
+
+        <label for="surname">Cognome</label>
+        <input type="text" id="surname" th:field="*{surname}">
+
+        <label for="dob">Data di nascita</label>
+        <input type="date" id="dob" value="1980-01-01" th:field="*{dateOfBirth}">
+
+        <label for="pob">Luogo di nascita</label>
+        <input type="text" id="pob" th:field="*{placeOfBirth}">
+
+        <label for="dod">Data di morte</label>
+        <input type="date" id="dod" th:field="*{dateOfDeath}">
+
+        <label for="pod">Luogo di morte</label>
+        <input type="text" id="pod" th:field="*{placeOfDeath}">
+
+        <label for="nation">Nazionalità</label>
+        <input type="text" id="nation" th:field="*{nationality}">
+
+        <label for="photo">File foto</label>
+        <input type="text" id="photo" th:field="*{photoFileName}">
+
+        <label for="bio">Biografia</label>
+        <textarea id="bio" th:field="*{biography}"></textarea>
+        <div>
+            <button type="reset" onclick="goBack()">Annulla</button>
+            <button type="submit">Crea</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>

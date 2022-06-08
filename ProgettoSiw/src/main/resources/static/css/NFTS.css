@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 70% 25% 5%;
+}
+
+.artwork > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.description {
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.description > a {
+    color: black;
+}
+
+.go-back {
+    padding-top: 1em;
+    text-align: right;
+}

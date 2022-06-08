@@ -1,0 +1,29 @@
+
+
+Come si effettua il cambio da HTTP ad HTTPS ? In caso venga fatto questo passaggio 
+abbiamo usato diverse classi che nel nome contenevano HTTP
+
+Springboot, per come lo abbiamo studiato, è sufficiente per avviare un'attività
+   anche molto semplice che non colleziona dati sensibili?
+   
+Encoding della password, cosa comporta?
+
+Step fatti per HTTPS :
+Scaricato certbot per generare certificato (Web browsers non accettano certificati home made)
+Mi serve un indirizzo web, quindi devo attivare un server DNS.
+   
+Query miracolosa :
+SELECT *
+from nft
+where id in (
+SELECT mynfts_id 
+FROM users_mynfts
+where user_id=2) //join
+
+Appunti su query :
+Come risolvo il fatto descritto su telegram? Al momento ho messo una pezza aggiungendo 
+alla tabella nft la colonna "users_id".
+
+@PostConstruct
+
+Come prendere e gestire un'immagine da un form.

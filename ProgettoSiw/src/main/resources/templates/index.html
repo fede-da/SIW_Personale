@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NFT4ALL</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" href="../static/css/style.css">
+</head>
+
+<header>
+
+    <nav>
+        <a th:href="@{/NFTS}">I nostri NFT</a> 
+        <a th:href="@{/login}">Login</a>
+        <a th:href="@{/register}">Registrati</a>
+    </nav>
+
+</header>
+
+<body>
+
+    <div class="grid">
+        <main class="main-content">
+            <h1>Cosa sono gli NFT ?</h1>
+            <p> Un non-fungible token (NFT, in italiano gettone non fungibile o gettone non riproducibile) è un tipo
+                speciale di gettone crittografico che rappresenta l'atto di proprietà e il certificato di autenticità
+                scritto su catena di blocchi di un bene unico (digitale o fisico) come ad esempio un'opera d'arte.
+                Spesso queste vengono acquistate e vendute utilizzando come metodo di pagamento delle criptomonete
+                (Bitcoin, Ethereum...) ed il loro prezzo può oscillare facilmente.</p>
+            <ul class="singleImage">
+                <li><a><img src="../static/images/bitcoin.jpeg" th:src="@{/images/bitcoin.jpeg}"></a>
+            </ul>
+
+            <h2>A cosa serve un NFT ?</h2>
+            <p>Chi acquista un’opera legata a un non-fungible token non acquista l’opera in sé, ma semplicemente la
+                possibilità di dimostrare un diritto sull’opera, garantito tramite uno smart contract. Tutto comincia
+                con una versione digitale dell’opera d’arte. Tipicamente, si usa una foto digitale o una sua
+                documentazione filmata e salvata in formato digitale.</p>
+            <ul class="people">
+                <li><a><img src="../static/images/monky3.jpeg"  th:src="@{/images/monky3.jpeg}"></a>
+                <li><a><img src="../static/images/cane.jpeg"  th:src="@{/images/cane.jpeg}"></a>
+                <li><a><img src="../static/images/lion.jpeg" th:src="@{/images/lion.jpeg}" ></a>
+                <li><a><img src="../static/images/cat3.jpeg"  th:src="@{/images/cat3.jpeg}"></a>
+                
+            </ul>
+            <p>Uno dei nostri NFT ha stuzzicato la tua fantasia? Beh allora cosa aspetti, entra nel nostro sito e
+                comincia a comprare ne abbiamo migliaia!</p>
+            <p></p>
+
+        </main>
+
+        <!--  <nav>
+            <a <!--th:href="@{/artists}">Vai al sito</a>
+            <a <!--th:href="@{/artworks}"></a>
+            <a <!--th:href="@{/login}">Login</a>
+            <a <!--th:href="@{/login}">Registrati</a>
+        </nav> -->
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+.error {
+        color: red;
+    }
+
+.grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.bg-image {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-container>h1 {
+    text-align: center;
+    padding: 0 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form > input {
+    text-align: center;
+    font-size: larger;
+    width: 100%;
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+}
+
+form > input[type=password] {
+    margin-top: 2em;
+}
+
+form > input:focus {
+    outline-width: 0;
+}
+
+form > button {
+    margin-top: 2em;
+    height: 2.5em;
+    border-radius: 25px;
+    border-width: 0;
+    background: #0a0a0a;
+    color: white;
+    font-size: large;
+}
+
+form > a {
+    color: #0a0a0a;
+    text-align: center;
+    margin-top: 1em;
+}

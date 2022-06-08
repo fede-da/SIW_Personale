@@ -1,0 +1,1004 @@
+2022-05-26 19:20:44,971 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-05-26 19:21:43,571 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:ProgettoSIW:0.0.1-SNAPSHOT @ /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/pom.xml.
+2022-05-26 19:22:09,180 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:22:09,183 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:22:09,192 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-26 19:22:09,238 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-26 19:22:09,357 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:22:09,357 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:22:09,357 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-26 19:24:01,980 [Worker-1: Launching Executing clean in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop
+2022-05-26 19:24:02,016 [Worker-1: Launching Executing clean in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean -Dstyle.color=always
+2022-05-26 19:24:06,760 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:24:06,761 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:24:06,770 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-26 19:24:06,781 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-26 19:24:06,929 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:24:06,929 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:24:06,929 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-26 19:24:11,042 [Worker-12: Launching Executing install in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop
+2022-05-26 19:24:11,042 [Worker-12: Launching Executing install in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2022-05-26 19:24:40,020 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:24:40,020 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:24:40,023 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-26 19:24:40,586 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-26 19:24:40,624 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:24:40,625 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:24:40,625 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-26 19:38:23,478 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:ProgettoSIW:0.0.1-SNAPSHOT @ /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/pom.xml.
+2022-05-26 19:38:24,552 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/1.2.6/jakarta.servlet.jsp.jstl-1.2.6.pom
+2022-05-26 19:38:24,699 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/1.2.6/jakarta.servlet.jsp.jstl-1.2.6.pom
+2022-05-26 19:38:24,783 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/1.2.7/jakarta.servlet.jsp.jstl-api-1.2.7.pom
+2022-05-26 19:38:24,825 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/1.2.7/jakarta.servlet.jsp.jstl-api-1.2.7.pom
+2022-05-26 19:38:24,850 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.2/project-1.0.2.pom
+2022-05-26 19:38:24,910 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.2/project-1.0.2.pom
+2022-05-26 19:38:26,323 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/1.2.6/jakarta.servlet.jsp.jstl-1.2.6.jar
+2022-05-26 19:38:26,370 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/1.2.7/jakarta.servlet.jsp.jstl-api-1.2.7.jar
+2022-05-26 19:38:26,485 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/1.2.7/jakarta.servlet.jsp.jstl-api-1.2.7.jar
+2022-05-26 19:38:27,088 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/1.2.6/jakarta.servlet.jsp.jstl-1.2.6.jar
+2022-05-26 19:38:28,743 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:38:28,744 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:38:28,888 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-26 19:38:28,892 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-26 19:38:28,899 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:38:28,900 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:38:28,900 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-26 19:38:31,664 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/1.2.6/jakarta.servlet.jsp.jstl-1.2.6-sources.jar
+2022-05-26 19:38:31,799 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/1.2.6/jakarta.servlet.jsp.jstl-1.2.6-sources.jar
+2022-05-26 19:38:31,923 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.web:jakarta.servlet.jsp.jstl:1.2.6
+2022-05-26 19:38:32,110 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/1.2.7/jakarta.servlet.jsp.jstl-api-1.2.7-sources.jar
+2022-05-26 19:38:32,158 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/1.2.7/jakarta.servlet.jsp.jstl-api-1.2.7-sources.jar
+2022-05-26 19:38:32,196 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:1.2.7
+2022-05-26 19:38:35,634 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:38:35,634 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:38:35,637 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-26 19:38:35,688 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-26 19:38:35,955 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:38:35,955 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:38:35,955 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-26 19:38:47,612 [Worker-21: Launching Executing clean in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop
+2022-05-26 19:38:47,613 [Worker-21: Launching Executing clean in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean -Dstyle.color=always
+2022-05-26 19:38:53,626 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:38:53,626 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:38:53,628 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-26 19:38:53,633 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-26 19:38:53,726 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:38:53,726 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:38:53,726 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-26 19:38:59,932 [Worker-19: Launching Executing install in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop
+2022-05-26 19:38:59,932 [Worker-19: Launching Executing install in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2022-05-26 19:39:27,893 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:39:27,894 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:39:27,897 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-26 19:39:27,925 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-26 19:39:27,941 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:39:27,941 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:39:27,941 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-26 19:39:48,334 [Worker-16: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:39:48,335 [Worker-16: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:39:48,337 [Worker-16: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-26 19:39:48,338 [Worker-16: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-26 19:39:48,344 [Worker-16: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:39:48,344 [Worker-16: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:39:48,345 [Worker-16: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-26 19:56:50,435 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:56:50,459 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:56:50,486 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-26 19:56:50,493 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-26 19:56:50,548 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-26 19:56:50,548 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-26 19:56:50,549 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:04:10,283 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:04:10,290 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:04:10,292 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-27 22:04:10,293 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:04:10,309 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:04:10,309 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:04:10,309 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:10:06,006 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:10:06,006 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:10:06,014 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:10:06,893 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-27 22:10:06,931 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:10:06,931 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:10:06,931 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:10:27,902 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:10:27,903 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:10:27,904 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:10:28,520 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-27 22:10:28,551 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:10:28,551 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:10:28,551 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:12:43,487 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:12:43,490 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:12:43,493 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:12:43,586 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-27 22:12:43,607 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:12:43,607 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:12:43,608 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:13:20,731 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:13:20,731 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:13:20,734 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:13:20,746 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-27 22:13:20,757 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:13:20,758 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:13:20,758 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:13:32,888 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:13:32,888 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:13:32,890 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:13:32,930 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-27 22:13:32,942 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:13:32,943 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:13:32,943 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:13:42,419 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:13:42,419 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:13:42,422 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:13:42,463 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-27 22:13:42,493 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:13:42,493 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:13:42,493 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:13:53,843 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:13:53,843 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:13:53,845 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:13:53,857 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-27 22:13:53,868 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:13:53,868 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:13:53,868 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:14:04,273 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:14:04,273 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:14:04,277 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:14:04,288 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-27 22:14:04,294 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:14:04,295 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:14:04,295 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:20:13,421 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:20:13,424 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:20:13,431 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:20:13,454 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-27 22:20:13,473 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:20:13,473 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:20:13,473 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:20:24,662 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:20:24,662 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:20:24,665 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:20:24,674 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-27 22:20:24,685 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:20:24,685 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:20:24,686 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:22:39,595 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:22:39,596 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:22:39,597 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:22:39,604 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-27 22:22:39,613 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:22:39,613 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:22:39,613 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:38:08,300 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:38:08,307 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:38:08,314 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:38:08,454 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-27 22:38:08,465 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:38:08,465 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:38:08,466 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:39:07,307 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:39:07,307 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:39:07,309 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:39:07,318 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-27 22:39:07,326 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:39:07,326 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:39:07,327 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-27 22:40:34,529 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:40:34,539 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:40:34,548 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-27 22:40:34,810 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-27 22:40:34,858 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-27 22:40:34,858 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-27 22:40:34,858 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 16:35:36,233 [Worker-1433: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 16:35:36,239 [Worker-1433: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 16:35:36,256 [Worker-1433: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 16:35:36,374 [Worker-1433: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 16:35:36,386 [Worker-1433: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 16:35:36,386 [Worker-1433: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 16:35:36,386 [Worker-1433: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 16:36:17,258 [Worker-1563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 16:36:17,262 [Worker-1563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 16:36:17,266 [Worker-1563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 16:36:17,281 [Worker-1563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 16:36:17,297 [Worker-1563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 16:36:17,297 [Worker-1563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 16:36:17,297 [Worker-1563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 16:37:56,173 [Worker-1695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 16:37:56,173 [Worker-1695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 16:37:56,175 [Worker-1695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 16:37:56,185 [Worker-1695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 16:37:56,197 [Worker-1695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 16:37:56,197 [Worker-1695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 16:37:56,197 [Worker-1695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 16:51:36,946 [Worker-1974: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 16:51:36,947 [Worker-1974: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 16:51:36,949 [Worker-1974: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 16:51:36,988 [Worker-1974: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 16:51:36,994 [Worker-1974: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 16:51:36,994 [Worker-1974: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 16:51:36,994 [Worker-1974: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 17:00:35,657 [Worker-2126: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 17:00:35,657 [Worker-2126: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 17:00:35,659 [Worker-2126: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 17:00:35,674 [Worker-2126: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 17:00:35,686 [Worker-2126: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 17:00:35,686 [Worker-2126: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 17:00:35,687 [Worker-2126: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 17:10:29,133 [Worker-2376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 17:10:29,135 [Worker-2376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 17:10:29,138 [Worker-2376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 17:10:29,236 [Worker-2376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 17:10:29,269 [Worker-2376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 17:10:29,269 [Worker-2376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 17:10:29,269 [Worker-2376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 17:16:28,426 [Worker-2616: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 17:16:28,427 [Worker-2616: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 17:16:28,429 [Worker-2616: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 17:16:28,490 [Worker-2616: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 17:16:28,511 [Worker-2616: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 17:16:28,511 [Worker-2616: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 17:16:28,511 [Worker-2616: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 18:49:09,189 [Worker-2908: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 18:49:09,196 [Worker-2908: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 18:49:09,216 [Worker-2908: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 18:49:09,382 [Worker-2908: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 18:49:09,412 [Worker-2908: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 18:49:09,412 [Worker-2908: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 18:49:09,412 [Worker-2908: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 18:50:47,224 [Worker-3048: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 18:50:47,225 [Worker-3048: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 18:50:47,227 [Worker-3048: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 18:50:47,236 [Worker-3048: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 18:50:47,248 [Worker-3048: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 18:50:47,249 [Worker-3048: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 18:50:47,249 [Worker-3048: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 23:06:58,241 [Worker-3215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 23:06:58,244 [Worker-3215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 23:06:58,248 [Worker-3215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 23:06:58,350 [Worker-3215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 23:06:58,359 [Worker-3215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 23:06:58,359 [Worker-3215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 23:06:58,359 [Worker-3215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 23:13:28,121 [Worker-3475: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 23:13:28,122 [Worker-3475: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 23:13:28,124 [Worker-3475: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 23:13:28,133 [Worker-3475: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 23:13:28,146 [Worker-3475: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 23:13:28,146 [Worker-3475: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 23:13:28,146 [Worker-3475: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 23:17:39,378 [Worker-3722: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 23:17:39,379 [Worker-3722: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 23:17:39,382 [Worker-3722: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 23:17:39,397 [Worker-3722: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 23:17:39,410 [Worker-3722: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 23:17:39,411 [Worker-3722: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 23:17:39,411 [Worker-3722: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 23:19:45,636 [Worker-3870: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 23:19:45,637 [Worker-3870: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 23:19:45,638 [Worker-3870: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 23:19:45,645 [Worker-3870: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 23:19:45,653 [Worker-3870: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 23:19:45,653 [Worker-3870: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 23:19:45,653 [Worker-3870: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 23:21:13,568 [Worker-4071: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 23:21:13,569 [Worker-4071: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 23:21:13,573 [Worker-4071: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 23:21:13,586 [Worker-4071: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 23:21:13,611 [Worker-4071: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 23:21:13,611 [Worker-4071: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 23:21:13,611 [Worker-4071: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-29 23:28:04,344 [Worker-4231: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 23:28:04,346 [Worker-4231: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 23:28:04,352 [Worker-4231: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-29 23:28:04,525 [Worker-4231: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-29 23:28:04,546 [Worker-4231: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-29 23:28:04,546 [Worker-4231: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-29 23:28:04,546 [Worker-4231: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:04:08,603 [Worker-4441: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:04:08,607 [Worker-4441: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:04:08,611 [Worker-4441: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:04:08,685 [Worker-4441: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:04:08,698 [Worker-4441: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:04:08,698 [Worker-4441: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:04:08,698 [Worker-4441: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:04:36,154 [Worker-4501: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:04:36,154 [Worker-4501: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:04:36,158 [Worker-4501: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:04:36,193 [Worker-4501: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:04:36,230 [Worker-4501: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:04:36,230 [Worker-4501: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:04:36,230 [Worker-4501: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:07:38,283 [Worker-4811: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:07:38,284 [Worker-4811: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:07:38,287 [Worker-4811: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:07:38,448 [Worker-4811: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:07:38,456 [Worker-4811: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:07:38,456 [Worker-4811: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:07:38,456 [Worker-4811: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:07:56,805 [Worker-4855: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:07:56,806 [Worker-4855: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:07:56,807 [Worker-4855: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:07:57,506 [Worker-4855: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:07:57,527 [Worker-4855: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:07:57,529 [Worker-4855: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:07:57,530 [Worker-4855: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:08:21,442 [Worker-4914: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:08:21,442 [Worker-4914: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:08:21,445 [Worker-4914: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:08:21,457 [Worker-4914: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:08:21,467 [Worker-4914: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:08:21,467 [Worker-4914: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:08:21,468 [Worker-4914: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:08:55,992 [Worker-4970: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:08:55,994 [Worker-4970: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:08:56,012 [Worker-4970: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:08:56,099 [Worker-4970: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:08:56,108 [Worker-4970: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:08:56,108 [Worker-4970: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:08:56,108 [Worker-4970: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:09:07,341 [Worker-5014: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:09:07,341 [Worker-5014: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:09:07,345 [Worker-5014: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:09:07,596 [Worker-5014: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:09:07,610 [Worker-5014: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:09:07,610 [Worker-5014: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:09:07,610 [Worker-5014: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:09:14,764 [Worker-5081: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:09:14,764 [Worker-5081: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:09:14,775 [Worker-5081: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:09:14,818 [Worker-5081: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:09:14,830 [Worker-5081: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:09:14,830 [Worker-5081: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:09:14,830 [Worker-5081: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:09:31,467 [Worker-5118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:09:31,468 [Worker-5118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:09:31,476 [Worker-5118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:09:31,486 [Worker-5118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:09:31,495 [Worker-5118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:09:31,496 [Worker-5118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:09:31,496 [Worker-5118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:09:49,838 [Worker-5170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:09:49,839 [Worker-5170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:09:49,842 [Worker-5170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:09:49,850 [Worker-5170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:09:49,865 [Worker-5170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:09:49,865 [Worker-5170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:09:49,865 [Worker-5170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:11:33,698 [Worker-5417: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:11:33,699 [Worker-5417: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:11:33,702 [Worker-5417: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:11:33,710 [Worker-5417: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:11:33,718 [Worker-5417: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:11:33,719 [Worker-5417: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:11:33,719 [Worker-5417: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:14:16,033 [Worker-5906: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:14:16,034 [Worker-5906: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:14:16,035 [Worker-5906: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:14:16,049 [Worker-5906: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:14:16,063 [Worker-5906: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:14:16,063 [Worker-5906: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:14:16,064 [Worker-5906: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:14:32,021 [Worker-5954: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:14:32,023 [Worker-5954: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:14:32,025 [Worker-5954: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:14:32,072 [Worker-5954: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:14:32,089 [Worker-5954: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:14:32,089 [Worker-5954: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:14:32,089 [Worker-5954: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:43:43,502 [Worker-6136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:43:43,507 [Worker-6136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:43:43,514 [Worker-6136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:43:43,756 [Worker-6136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:43:43,777 [Worker-6136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:43:43,777 [Worker-6136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:43:43,777 [Worker-6136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:45:09,948 [Worker-6293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:45:09,949 [Worker-6293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:45:09,950 [Worker-6293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:45:09,974 [Worker-6293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:45:09,993 [Worker-6293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:45:09,993 [Worker-6293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:45:09,995 [Worker-6293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:45:21,839 [Worker-6356: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:45:21,844 [Worker-6356: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:45:21,853 [Worker-6356: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:45:21,865 [Worker-6356: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:45:21,881 [Worker-6356: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:45:21,881 [Worker-6356: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:45:21,881 [Worker-6356: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:46:52,788 [Worker-6542: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:46:52,789 [Worker-6542: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:46:52,793 [Worker-6542: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:46:52,801 [Worker-6542: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:46:52,811 [Worker-6542: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:46:52,811 [Worker-6542: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:46:52,811 [Worker-6542: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:55:13,484 [Worker-7307: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:55:13,486 [Worker-7307: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:55:13,493 [Worker-7307: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:55:13,631 [Worker-7307: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:55:13,644 [Worker-7307: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:55:13,644 [Worker-7307: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:55:13,645 [Worker-7307: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:55:16,196 [Worker-7357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:55:16,196 [Worker-7357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:55:16,202 [Worker-7357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:55:16,210 [Worker-7357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:55:16,219 [Worker-7357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:55:16,219 [Worker-7357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:55:16,219 [Worker-7357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:55:43,917 [Worker-7476: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:55:43,917 [Worker-7476: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:55:43,919 [Worker-7476: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:55:43,946 [Worker-7476: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:55:43,955 [Worker-7476: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:55:43,955 [Worker-7476: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:55:43,955 [Worker-7476: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 00:57:24,278 [Worker-7599: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:57:24,282 [Worker-7599: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:57:24,285 [Worker-7599: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 00:57:24,300 [Worker-7599: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 00:57:24,311 [Worker-7599: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 00:57:24,311 [Worker-7599: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 00:57:24,311 [Worker-7599: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 01:05:28,791 [Worker-8680: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 01:05:28,794 [Worker-8680: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 01:05:28,797 [Worker-8680: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 01:05:28,865 [Worker-8680: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 01:05:28,874 [Worker-8680: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 01:05:28,874 [Worker-8680: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 01:05:28,874 [Worker-8680: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 01:05:37,906 [Worker-8737: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 01:05:37,907 [Worker-8737: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 01:05:37,909 [Worker-8737: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 01:05:38,222 [Worker-8737: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 01:05:38,227 [Worker-8737: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 01:05:38,227 [Worker-8737: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 01:05:38,227 [Worker-8737: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 01:06:01,276 [Worker-8804: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 01:06:01,277 [Worker-8804: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 01:06:01,278 [Worker-8804: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 01:06:01,350 [Worker-8804: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 01:06:01,363 [Worker-8804: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 01:06:01,363 [Worker-8804: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 01:06:01,363 [Worker-8804: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 01:06:26,181 [Worker-8859: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 01:06:26,181 [Worker-8859: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 01:06:26,184 [Worker-8859: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 01:06:26,216 [Worker-8859: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 01:06:26,228 [Worker-8859: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 01:06:26,228 [Worker-8859: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 01:06:26,228 [Worker-8859: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 01:06:47,299 [Worker-8944: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 01:06:47,299 [Worker-8944: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 01:06:47,301 [Worker-8944: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 01:06:47,309 [Worker-8944: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 01:06:47,317 [Worker-8944: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 01:06:47,317 [Worker-8944: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 01:06:47,318 [Worker-8944: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 01:09:51,038 [Worker-9136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 01:09:51,038 [Worker-9136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 01:09:51,041 [Worker-9136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 01:09:51,050 [Worker-9136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 01:09:51,058 [Worker-9136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 01:09:51,058 [Worker-9136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 01:09:51,059 [Worker-9136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 01:14:05,459 [Worker-9343: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 01:14:05,468 [Worker-9343: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 01:14:05,476 [Worker-9343: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 01:14:06,162 [Worker-9343: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 01:14:06,168 [Worker-9343: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 01:14:06,168 [Worker-9343: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 01:14:06,169 [Worker-9343: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 08:51:06,026 [Worker-9790: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 08:51:06,030 [Worker-9790: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 08:51:06,035 [Worker-9790: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 08:51:06,183 [Worker-9790: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 08:51:06,251 [Worker-9790: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 08:51:06,256 [Worker-9790: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 08:51:06,256 [Worker-9790: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 09:24:45,566 [Worker-10022: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 09:24:45,569 [Worker-10022: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 09:24:45,570 [Worker-10022: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 09:24:45,609 [Worker-10022: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-30 09:24:45,615 [Worker-10022: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 09:24:45,615 [Worker-10022: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 09:24:45,615 [Worker-10022: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 09:25:56,385 [Worker-10137: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:ProgettoSIW:0.0.1-SNAPSHOT @ /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/pom.xml.
+2022-05-30 09:25:57,109 [Worker-10137: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.pom
+2022-05-30 09:25:57,221 [Worker-10137: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.pom
+2022-05-30 09:25:58,900 [Worker-10137: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.jar
+2022-05-30 09:25:58,957 [Worker-10137: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.jar
+2022-05-30 09:26:00,342 [Worker-10137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 09:26:00,342 [Worker-10137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 09:26:00,351 [Worker-10137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-30 09:26:00,351 [Worker-10137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-30 09:26:00,358 [Worker-10137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 09:26:00,358 [Worker-10137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 09:26:00,358 [Worker-10137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 09:26:05,376 [Worker-10190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 09:26:05,376 [Worker-10190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 09:26:05,382 [Worker-10190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 09:26:05,416 [Worker-10190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 09:26:05,526 [Worker-10190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 09:26:05,527 [Worker-10190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 09:26:05,527 [Worker-10190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 09:26:06,131 [Worker-10216: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0-sources.jar
+2022-05-30 09:26:06,188 [Worker-10216: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0-sources.jar
+2022-05-30 09:26:06,385 [Worker-10216: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.jsonwebtoken:jjwt:0.9.0
+2022-05-30 09:26:10,263 [Worker-10256: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:ProgettoSIW:0.0.1-SNAPSHOT @ /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/pom.xml.
+2022-05-30 09:26:11,903 [Worker-10256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 09:26:11,903 [Worker-10256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 09:26:11,909 [Worker-10256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-30 09:26:11,912 [Worker-10256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-30 09:26:11,920 [Worker-10256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 09:26:11,920 [Worker-10256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 09:26:11,920 [Worker-10256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 09:26:19,138 [Worker-10300: Launching Executing clean in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop
+2022-05-30 09:26:19,138 [Worker-10300: Launching Executing clean in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean -Dstyle.color=always
+2022-05-30 09:26:23,824 [Worker-10350: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 09:26:23,824 [Worker-10350: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 09:26:23,827 [Worker-10350: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 09:26:23,886 [Worker-10350: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 09:26:23,932 [Worker-10350: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 09:26:23,932 [Worker-10350: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 09:26:23,932 [Worker-10350: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 09:26:27,607 [Worker-10367: Launching Executing install in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop
+2022-05-30 09:26:27,612 [Worker-10367: Launching Executing install in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2022-05-30 09:27:15,138 [Worker-10423: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 09:27:15,139 [Worker-10423: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 09:27:15,142 [Worker-10423: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 09:27:15,370 [Worker-10423: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 09:27:15,375 [Worker-10423: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 09:27:15,375 [Worker-10423: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 09:27:15,375 [Worker-10423: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 09:28:05,038 [Worker-10513: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 09:28:05,039 [Worker-10513: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 09:28:05,041 [Worker-10513: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 09:28:05,110 [Worker-10513: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-30 09:28:05,112 [Worker-10513: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 09:28:05,112 [Worker-10513: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 09:28:05,112 [Worker-10513: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 09:34:34,934 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-05-30 13:37:56,424 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 13:37:56,427 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 13:37:56,464 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 13:37:56,522 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 13:37:56,796 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 13:37:56,796 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 13:37:56,797 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 16:14:16,420 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 16:14:16,427 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 16:14:16,444 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 16:14:16,530 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 16:14:16,553 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 16:14:16,553 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 16:14:16,553 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 16:15:35,201 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 16:15:35,202 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 16:15:35,205 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 16:15:35,220 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 16:15:35,233 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 16:15:35,233 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 16:15:35,233 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 16:39:50,847 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 16:39:50,849 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 16:39:50,852 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 16:39:50,996 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 16:39:51,027 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 16:39:51,027 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 16:39:51,027 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 16:45:07,825 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 16:45:07,826 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 16:45:07,830 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 16:45:07,855 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 16:45:07,950 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 16:45:07,950 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 16:45:07,950 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 16:48:34,554 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 16:48:34,558 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 16:48:34,561 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 16:48:34,708 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 16:48:34,745 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 16:48:34,745 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 16:48:34,745 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 16:48:51,185 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 16:48:51,186 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 16:48:51,191 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 16:48:51,203 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 16:48:51,226 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 16:48:51,226 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 16:48:51,226 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 17:06:47,155 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:06:47,156 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:06:47,158 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 17:06:47,220 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 17:06:47,240 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:06:47,240 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:06:47,241 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 17:07:19,754 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:07:19,759 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:07:19,762 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 17:07:19,779 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 17:07:19,787 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:07:19,787 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:07:19,787 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 17:07:59,728 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:07:59,729 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:07:59,731 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 17:07:59,768 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 17:07:59,782 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:07:59,782 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:07:59,782 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 17:24:55,878 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:24:55,879 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:24:55,882 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 17:24:55,940 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 17:24:55,964 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:24:55,965 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:24:55,965 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 17:32:30,540 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:32:30,540 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:32:30,546 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 17:32:30,586 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 17:32:30,595 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:32:30,596 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:32:30,596 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 17:32:41,182 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:32:41,182 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:32:41,186 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 17:32:41,206 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 17:32:41,218 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:32:41,218 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:32:41,218 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 17:33:58,311 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:33:58,311 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:33:58,314 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 17:33:58,353 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 17:33:58,362 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:33:58,362 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:33:58,362 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 17:34:42,636 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:34:42,637 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:34:42,640 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 17:34:42,660 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 17:34:42,676 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:34:42,676 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:34:42,676 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 17:35:20,513 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:35:20,513 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:35:20,516 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 17:35:20,551 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 17:35:20,570 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:35:20,570 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:35:20,570 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 17:42:29,983 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:42:29,991 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:42:30,017 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 17:42:30,068 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 17:42:30,132 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:42:30,132 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:42:30,132 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 17:46:19,362 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:46:19,363 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:46:19,366 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 17:46:19,407 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 17:46:19,432 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:46:19,432 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:46:19,432 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 17:48:17,152 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:48:17,153 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:48:17,155 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 17:48:17,179 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 17:48:17,187 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 17:48:17,187 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 17:48:17,187 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 18:52:52,341 [Worker-87: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 18:52:52,346 [Worker-87: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 18:52:52,389 [Worker-87: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 18:52:52,575 [Worker-87: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 18:52:52,606 [Worker-87: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 18:52:52,606 [Worker-87: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 18:52:52,606 [Worker-87: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 18:54:12,977 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 18:54:12,979 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 18:54:12,991 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 18:54:13,091 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 18:54:13,114 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 18:54:13,115 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 18:54:13,115 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 18:54:55,985 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 18:54:55,986 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 18:54:55,989 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 18:54:56,024 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 18:54:56,037 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 18:54:56,037 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 18:54:56,038 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 19:10:10,058 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 19:10:10,061 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 19:10:10,063 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 19:10:10,111 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 19:10:10,122 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 19:10:10,122 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 19:10:10,122 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 19:10:14,705 [Worker-98: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 19:10:14,705 [Worker-98: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 19:10:14,708 [Worker-98: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 19:10:14,758 [Worker-98: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 19:10:14,770 [Worker-98: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 19:10:14,770 [Worker-98: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 19:10:14,770 [Worker-98: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 19:17:19,354 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 19:17:19,355 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 19:17:19,357 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 19:17:19,403 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 19:17:19,418 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 19:17:19,418 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 19:17:19,418 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 19:17:23,784 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 19:17:23,785 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 19:17:23,791 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 19:17:23,870 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 19:17:23,934 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 19:17:23,936 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 19:17:23,936 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 19:39:20,645 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 19:39:20,645 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 19:39:20,650 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 19:39:20,786 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 19:39:20,827 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 19:39:20,827 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 19:39:20,828 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 19:44:53,974 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 19:44:53,974 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 19:44:54,005 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-30 19:44:54,006 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 19:44:54,016 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 19:44:54,016 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 19:44:54,017 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-05-30 23:43:38,612 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 23:43:38,616 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 23:43:38,621 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-30 23:43:39,109 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-05-30 23:43:39,460 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-30 23:43:39,464 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-30 23:43:39,464 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-02 11:26:59,703 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-06-02 11:27:34,499 [Worker-5: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-02 11:27:34,508 [Worker-5: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-02 11:27:34,520 [Worker-5: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-02 11:27:34,575 [Worker-5: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-02 11:27:34,723 [Worker-5: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-02 11:27:34,723 [Worker-5: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-02 11:27:34,723 [Worker-5: Launching NFTShop - ProgettoSiwApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 10:29:25,940 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-06-06 10:51:04,266 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 10:51:04,274 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 10:51:04,296 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 10:51:04,404 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 10:51:04,435 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 10:51:04,435 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 10:51:04,436 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 10:55:35,796 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 10:55:35,796 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 10:55:35,810 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 10:55:35,842 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 10:55:35,856 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 10:55:35,857 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 10:55:35,858 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 10:56:13,598 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 10:56:13,599 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 10:56:13,603 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 10:56:13,621 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 10:56:13,641 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 10:56:13,642 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 10:56:13,642 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 10:56:22,571 [Worker-16: Launching Executing clean in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop
+2022-06-06 10:56:22,572 [Worker-16: Launching Executing clean in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean -Dstyle.color=always
+2022-06-06 10:56:28,749 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 10:56:28,749 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 10:56:28,752 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 10:56:28,761 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 10:56:28,887 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 10:56:28,887 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 10:56:28,887 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 10:56:33,454 [Worker-16: Launching Executing install in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop
+2022-06-06 10:56:33,454 [Worker-16: Launching Executing install in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2022-06-06 10:57:06,692 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 10:57:06,693 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 10:57:06,697 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 10:57:06,865 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 10:57:06,885 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 10:57:06,885 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 10:57:06,885 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 10:57:56,093 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 10:57:56,094 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 10:57:56,097 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 10:57:56,181 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 10:57:56,231 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 10:57:56,233 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 10:57:56,234 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:04:59,383 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:04:59,383 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:04:59,391 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:04:59,413 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:04:59,560 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:04:59,562 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:04:59,562 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:05:28,083 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:05:28,084 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:05:28,118 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:05:28,140 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:05:28,207 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:05:28,208 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:05:28,208 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:06:35,181 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:06:35,182 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:06:35,185 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:06:35,236 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:06:35,378 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:06:35,379 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:06:35,379 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:07:49,296 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:07:49,304 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:07:49,310 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:07:49,427 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:07:49,449 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:07:49,449 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:07:49,449 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:08:58,032 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:08:58,033 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:08:58,036 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:08:58,058 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:08:58,092 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:08:58,092 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:08:58,093 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:09:00,151 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:09:00,154 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:09:00,158 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:09:00,182 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:09:00,213 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:09:00,213 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:09:00,213 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:09:07,352 [Worker-19: Launching Executing install in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop
+2022-06-06 11:09:07,354 [Worker-19: Launching Executing install in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2022-06-06 11:09:35,797 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:09:35,797 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:09:35,807 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:09:35,861 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:09:35,878 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:09:35,878 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:09:35,878 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:10:52,065 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:10:52,066 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:10:52,069 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:10:52,100 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:10:52,118 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:10:52,118 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:10:52,118 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:10:58,080 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:10:58,080 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:10:58,082 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:10:58,131 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:10:58,157 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:10:58,157 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:10:58,157 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:11:03,523 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:11:03,524 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:11:03,530 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:11:03,562 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:11:03,592 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:11:03,592 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:11:03,592 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:11:13,195 [Worker-24: Launching Executing install in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop
+2022-06-06 11:11:13,195 [Worker-24: Launching Executing install in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2022-06-06 11:12:17,798 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:12:17,799 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:12:17,802 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:12:17,820 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:12:17,845 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:12:17,846 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:12:17,846 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:12:21,447 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:12:21,448 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:12:21,452 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:12:21,494 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:12:21,508 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:12:21,508 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:12:21,508 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:12:25,100 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:12:25,100 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:12:25,105 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:12:25,194 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:12:25,215 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:12:25,215 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:12:25,215 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:12:34,450 [Worker-27: Launching Executing install in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop
+2022-06-06 11:12:34,451 [Worker-27: Launching Executing install in _Users_mac.fede_Documents_SIW_progetto.zip_expanded_NFTShop] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2022-06-06 11:14:42,720 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:14:42,721 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:14:42,724 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:14:42,769 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:14:42,782 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:14:42,783 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:14:42,783 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:14:43,897 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:14:43,897 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:14:43,900 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:14:43,959 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:14:43,977 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:14:43,977 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:14:43,977 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:15:46,857 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:15:46,858 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:15:46,863 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:15:46,889 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:15:46,900 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:15:46,901 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:15:46,901 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:15:47,994 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:15:47,994 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:15:47,997 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:15:48,009 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:15:48,022 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:15:48,022 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:15:48,022 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:15:57,568 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:15:57,569 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:15:57,576 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:15:57,625 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:15:57,641 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:15:57,642 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:15:57,642 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-06 11:16:48,575 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:16:48,575 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:16:48,578 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 11:16:48,624 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-06 11:16:48,646 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 11:16:48,647 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 11:16:48,647 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-08 08:22:36,175 [Worker-1482: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 08:22:36,177 [Worker-1482: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-08 08:22:36,177 [Worker-1482: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/main/resources
+2022-06-08 08:22:36,177 [Worker-1482: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/main/resources
+2022-06-08 08:22:36,182 [Worker-1482: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 08:22:36,182 [Worker-1482: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-08 08:22:36,183 [Worker-1482: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/progetto.zip_expanded/NFTShop/src/test/resources
+2022-06-08 08:22:36,748 [Worker-1482: Building] ERROR o.e.m.e.x.i.MarkerLocationService - null
+org.eclipse.jface.text.BadLocationException: null
+	at org.eclipse.jface.text.ListLineTracker.getLineOffset(ListLineTracker.java:197) ~[na:na]
+	at org.eclipse.jface.text.AbstractLineTracker.getLineOffset(AbstractLineTracker.java:161) ~[na:na]
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.getLineOffset(BasicStructuredDocument.java:1497) ~[na:na]
+	at org.eclipse.m2e.editor.xml.internal.MarkerLocationService.findLocationForMarker(MarkerLocationService.java:110) ~[na:na]
+	at org.eclipse.m2e.core.internal.markers.MarkerUtils.decorateMarker(MarkerUtils.java:50) ~[na:na]
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.addErrorMarker(MavenMarkerManager.java:333) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.processBuildResults(MavenBuilderImpl.java:318) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:177) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:169) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:114) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:105) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.700.v20200106-1020.jar:na]
+2022-06-08 08:24:26,384 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

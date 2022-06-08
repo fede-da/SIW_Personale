@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+    	<link rel="stylesheet" th:href="@{/css/style.css}" href="../static/css/style.css">
+    	
+    	<meta charset="UTF-8">
+    	<title>Profilo</title>
+	</head>
+	
+	<header th:replace="fragments/home_and_next.html :: intestazione"></header>
+	
+	<body>
+	
+	<div>
+		<div >
+			<label >Nome : </label>           
+     
+			<label th:text="*{user.name}"></label>           
+        </div>
+           
+		<div>
+			<a href="myNFTs.html" th:href="@{/profile/MyNFTS}" >I miei NFT</a>
+		</div>
+		<div>
+			<a href="new_nft_form.html" th:href="@{/addNFT}" >Carica nuovo NFT</a>
+		</div>
+		
+	</div>
+	</body>

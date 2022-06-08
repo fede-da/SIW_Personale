@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;it.uniroma3.siw.ProgettoSIW.model.NFT&apos; to &apos;Nft&apos;&#x0A;- Original project: &apos;NFTShop&apos;&#x0A;- Original element: &apos;it.uniroma3.siw.ProgettoSIW.model.NFT&apos;&#x0A;- Renamed element: &apos;it.uniroma3.siw.ProgettoSIW.model.Nft&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;NFT&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.uniroma3.siw.ProgettoSIW.model{NFT.java[NFT" matchStrategy="1" name="Nft" qualified="false" references="true" similarDeclarations="false" stamp="1654505734173" textual="false" version="1.0"/>
+</session>

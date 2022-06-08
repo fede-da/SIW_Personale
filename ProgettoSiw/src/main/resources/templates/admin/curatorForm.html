@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../static/css/adminForm.css" th:href="@{/css/adminForm.css}">
+    <title>Title</title>
+</head>
+<body>
+<div class="grid">
+    <h1>Aggiungi un artista</h1>
+    <!--/*@thymesVar id="curator" type="it.uniroma3.siw.ProgettoSIW.model.Curator"*/-->
+    <form th:action="@{/admin/curator}" method="post" th:object="${curator}">
+        <label for="name">Nome</label>
+        <input type="text" id="name" th:field="*{name}">
+
+        <label for="surname">Cognome</label>
+        <input type="text" id="surname" th:field="*{surname}">
+
+        <label for="dob">Data di nascita</label>
+        <input type="date" id="dob" value="1980-01-01" th:field="*{dateOfBirth}">
+
+        <label for="pob">Luogo di nascita</label>
+        <input type="text" id="pob" th:field="*{placeOfBirth}">
+
+        <label for="badge">Numero di matricola</label>
+        <input type="text" id="badge" th:field="*{badge}">
+
+
+        <div>
+            <button type="reset" onclick="goBack()">Annulla</button>
+            <button type="submit">Crea</button>
+        </div>
+    </form>
+</div>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>

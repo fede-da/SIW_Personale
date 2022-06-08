@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../static/css/login.css" th:href="@{/css/login.css}">
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid">
+        <div class="grid-item"></div>
+        <div class="form-container">
+            <div>
+                <ul>
+                    <li style="display: inline;"><a><img src="../static/images/nft4all.png" th:src="@{/images/nft4all.png}"></a>
+                </ul>
+            </div>
+            <form name = "f" th:action="@{/login}" method="post">
+                <label for="username"></label>
+                <input type="text" name="username" id="username" placeholder="Username">
+
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Password">
+
+                <button type="submit">Accedi</button>
+                <a th:href="@{/register}" href="registration.html" > oppure registrati </a>
+            </form>
+
+        </div>
+    </div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+</body>
+
+</html>

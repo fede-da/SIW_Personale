@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/collections.css" th:href="@{/css/collections.css}">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div class="intro">
+
+    <nav>
+        <a th:href="@{/index}">
+            <h1>Galleria Nazionale</h1>
+        </a>
+
+        <div class="scale-up-center">
+            <a th:href="@{/artists}">Artisti</a>
+        </div>
+        <div class="scale-up-center">
+            <a th:href="@{/collections}">Collezioni</a>
+        </div>
+
+        <div class="scale-up-center">
+            <a th:href="@{/artworks}">Opere</a>
+        </div>
+
+        <div class="scale-up-center">
+            <a th:href="@{/login}">Area riservata</a>
+        </div>
+
+    </nav>
+    <i th:text="|${artCollection.curator.name} ${artCollection.curator.surname} presenta:|">Paolo Rossi presenta:</i>
+    <h1 th:text="${artCollection.name}">Spazialismo</h1>
+    <p th:text="${artCollection.description}">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deleniti,
+        dicta dolorum earum facilis illo,
+        maiores minima praesentium quam quia quidem voluptate voluptates. Aperiam eos fugiat, molestias natus sequi
+        unde? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, facere illum magnam quibusdam quo rem
+        rerum! Asperiores autem, quasi? Architecto at aut fugiat illo ipsam minima molestias, quas voluptas
+        voluptate.</p>
+</div>
+
+<div class="grid-wrapper">
+    <!--/*@thymesVar id="artwork" type="it.uniroma3.siw.ProgettoSIW.model.Artwork"*/-->
+
+    <div class="artwork" th:each="artwork : ${artCollection.artworkList}"
+         th:style="'background-image: url('+ '/images/' + ${artwork.photoURL}+');'">
+        <a th:href="'/artwork/'+${artwork.id}">
+            <div class="artwork-info">
+                <h4 th:text="${artwork.title}">Tagli </h4>
+                <i th:text="|${artwork.artist.name} ${artwork.artist.surname}|">Lucio fontana</i>
+            </div>
+        </a>
+    </div>
+</div>
+
+</body>
+</html>

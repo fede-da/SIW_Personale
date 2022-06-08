@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/NFTS.css" th:href="@{/css/NFTS.css}">
+    <title>Title</title>
+</head>
+<body>
+<!--/*@thymesVar id="artwork" type="it.uniroma3.siw.ProgettoSIW.model.Artwork"*/-->
+<div class="grid">
+    <div class="artwork">
+       
+    </div>
+    <div class="description" th:object="${artwork}">
+        <a class="go-back" onclick="goBack()">← Torna indietro</a>
+        <h1 th:text="${artwork.title}">Tagli 1</h1>
+        <a href="" th:href="@{'/artist' + '/' + ${artwork.artist.id}}">
+            <i th:text="|${artwork.artist.name} ${artwork.artist.surname}|">Lucio Fontana</i>
+        </a>
+        <br>
+        <i th:text="${artwork.year}">1980</i>
+
+        <p th:text="${artwork.description}">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam at
+            consequuntur ea, eaque est, harum
+            maxime, non quasi reiciendis tenetur ullam? Fuga illum inventore itaque, nobis nulla optio quia!</p>
+    </div>
+</div>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>
