@@ -11,4 +11,8 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.NamedQuery"/>
     <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
+    <fullyQualifiedTypeName name="it.uniroma3.siw.ProgettoSIW.service.NFTService"/>
+    <fullyQualifiedTypeName name="it.uniroma3.siw.ProgettoSIW.service.CredentialsService"/>
+    <fullyQualifiedTypeName name="it.uniroma3.siw.ProgettoSIW.service.UserService"/>
+    <fullyQualifiedTypeName name="it.uniroma3.siw.ProgettoSIW.model.NFT"/>
 </qualifiedTypeNameHistroy>

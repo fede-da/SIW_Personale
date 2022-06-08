@@ -1,26 +1,23 @@
 package it.uniroma3.siw.ProgettoSIW.controller;
 
-//import it.uniroma3.siw.ProgettoSIW.firebaseStorage.FirebaseStorageStrategy;
-import it.uniroma3.siw.ProgettoSIW.model.Credentials;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
+
 import it.uniroma3.siw.ProgettoSIW.model.NFT;
-import it.uniroma3.siw.ProgettoSIW.model.User;
 import it.uniroma3.siw.ProgettoSIW.service.CredentialsService;
 import it.uniroma3.siw.ProgettoSIW.service.NFTService;
 import it.uniroma3.siw.ProgettoSIW.service.UserService;
 
-import java.io.File;
-import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
-import com.google.cloud.storage.Storage;
 
 @Controller
 public class NFTSController {
