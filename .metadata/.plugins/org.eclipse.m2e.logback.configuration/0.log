@@ -1002,3 +1002,43 @@ org.eclipse.jface.text.BadLocationException: null
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244) ~[na:na]
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.700.v20200106-1020.jar:na]
 2022-06-08 08:24:26,384 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-06-08 08:33:12,818 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-08 08:34:15,874 [Worker-7: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-06-08 08:34:18,671 [Worker-7: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:ProgettoSIW:0.0.1-SNAPSHOT @ /Users/mac.fede/Documents/SIW/ProgettoSiw/pom.xml.
+2022-06-08 08:34:24,077 [Worker-7: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProgettoSiw/src/main/java
+2022-06-08 08:34:24,078 [Worker-7: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProgettoSiw/src/main/resources
+2022-06-08 08:34:24,089 [Worker-7: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProgettoSiw/src/main/resources
+2022-06-08 08:34:24,106 [Worker-7: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProgettoSiw/src/test/java
+2022-06-08 08:34:28,128 [Worker-7: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 12 sec
+2022-06-08 08:34:30,061 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 08:34:30,061 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-08 08:34:30,075 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 08:34:30,159 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-08 08:34:30,318 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 08:34:30,319 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-08 08:34:30,323 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/ProgettoSiw/src/test/resources
+2022-06-08 08:34:43,646 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 08:34:43,646 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-08 08:34:43,649 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-08 08:34:43,651 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-08 08:34:43,656 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 08:34:43,656 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-08 08:34:43,656 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/ProgettoSiw/src/test/resources
+2022-06-08 08:34:46,973 [Worker-0: Launching Executing clean in _Users_mac.fede_Documents_SIW_ProgettoSiw] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/mac.fede/Documents/SIW/ProgettoSiw
+2022-06-08 08:34:46,981 [Worker-0: Launching Executing clean in _Users_mac.fede_Documents_SIW_ProgettoSiw] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean -Dstyle.color=always
+2022-06-08 08:34:51,666 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 08:34:51,667 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-08 08:34:51,672 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 08:34:51,678 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-08 08:34:51,764 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 08:34:51,764 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-08 08:34:51,764 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/ProgettoSiw/src/test/resources
+2022-06-08 08:34:57,074 [Worker-7: Launching Executing install in _Users_mac.fede_Documents_SIW_ProgettoSiw] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/mac.fede/Documents/SIW/ProgettoSiw
+2022-06-08 08:34:57,074 [Worker-7: Launching Executing install in _Users_mac.fede_Documents_SIW_ProgettoSiw] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2022-06-08 08:35:22,949 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 08:35:22,950 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-08 08:35:22,953 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 08:35:22,967 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 59 resources
+2022-06-08 08:35:22,979 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 08:35:22,979 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-08 08:35:22,980 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mac.fede/Documents/SIW/ProgettoSiw/src/test/resources

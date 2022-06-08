@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+    	<link rel="stylesheet" th:href="@{/css/style.css}" href="../static/css/style.css">
+    	<meta charset="UTF-8">
+    	<title>New NFT</title>
+	</head>
+	
+	<header th:replace="fragments/home_and_next.html :: intestazione"></header>
+	
+	<body>
+	
+		<div class="nft-form-grid-item"></div>
+    	<div class="nft-form-grid">
+ 
+    		<div>
+    		<form th:action="@{/nft_complete_creation}"  method="POST">
+    			<label for="title">Che nome vuoi dare all'NFT?</label>
+    			<input type="text" name="title" id="title"  required th:value="${nft.title}"/>
+    			<div></div>
+    			<label for="price">Inserisci un prezzo</label>
+    			<input type="number" name="price" id="price"  required th:value="${nft.price}"/>
+    			<div></div>
+    			<label for="description">Descrizione :</label>
+    			<input type="text" name="description" id="description"  required th:value="${nft.description}"/>
+    			<div></div>
+    			<label for="image">Aggiungi un'immagine</label>
+    			<input type="file" name="file" id="image"  onchange="PreviewImage();" />
+				<a> <img id="imageToShow" style="max-height:500px;max-width:500px;height:auto;width:auto;" > </a>
+    			<div></div>
+    			<button type="submit" class="btn btn-primary">Crea</button>
+    			
+    		</form>
+    		</div>
+    	
+    	</div>
+    	<div class="nft-form-grid">    	</div>	
+    	<script type="text/javascript">
+
+    function PreviewImage() {
+        var oFReader = new FileReader();
+        oFReader.readAsDataURL(document.getElementById("image").files[0]);
+
+        oFReader.onload = function (oFREvent) {
+            document.getElementById("imageToShow").src = oFREvent.target.result;
+        };
+    };
+
+</script>
+	</body>
+	
+</html>
+
+
+
+
+
+
+

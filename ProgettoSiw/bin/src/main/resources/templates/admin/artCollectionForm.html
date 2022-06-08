@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../static/css/adminForm.css" th:href="@{/css/adminForm.css}">
+    <title>Title</title>
+</head>
+<body>
+<div class="grid">
+    <h1>Crea una collezione</h1>
+    <!--/*@thymesVar id="artCollection" type="it.uniroma3.siw.ProgettoSIW.model.ArtCollection"*/-->
+    <form th:action="@{/admin/collection}" method="post" th:object="${artCollection}">
+        <label for="name">Nome</label>
+        <input type="text" id="name" th:field="*{name}">
+
+        <label for="desc">Descrizione</label>
+        <textarea id="desc" th:field="*{description}"></textarea>
+
+        <!--/*@thymesVar id="curator" type="it.uniroma3.siw.ProgettoSIW.model.Curator"*/-->
+        <label for="artist">Curatore</label>
+        <select id="artist" th:field="*{curator}">
+            <option th:each="curator : ${curators}" th:value="${curator.id}"
+                    th:text="|${curator.name} ${curator.surname}|">
+                Mario Rossi
+            </option>
+        </select>
+
+        <div>
+            <button type="reset" onclick="goBack()">Annulla</button>
+            <button type="submit">Crea</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="../static/css/login.css" th:href="@{/css/login.css}">
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+
+<body>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid">
+        <div class="grid-item"></div>
+        <div class="form-container">
+            <div>
+                <ul style="display: inline;">
+                    <li style="display: inline;"><a><img src="../static/images/nft4all.png" th:src="@{/images/nft4all.png}"></a>
+                </ul>
+            </div>
+            
+            <form th:action="@{/register}" th:object="${credentials}" method="POST">
+                <!--<div th:if="${#fields.hasGlobalErrors()}">
+  					<p th:each="err : ${#fields.globalErrors()}" th:text="${err}">...</p>
+				</div>	-->
+                <label for="username">Email: </label>
+                <input type="text" name="username" id="username"  required th:field="*{username}"/>
+                <ul>
+        			<li th:each="err : ${#fields.errors('username')}" th:text="${err}" class="error" />
+   				</ul> 
+                <!--<p th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Name Error</p>-->
+                <!--  <ul>
+        				<li th:each="err : ${#fields.errors('username')}" th:text="${err}" class="error" />
+   				</ul>-->
+   				
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required th:field="*{password}"/>
+                <ul>
+        			<li th:each="err : ${#fields.errors('password')}" th:text="${err}" class="error" />
+   				</ul> 
+             
+
+                <button type="submit" class="btn btn-primary">Registrati</button>
+                <a th:href="@{/login}" href="login.html" > oppure accedi</a>
+            </form>
+           <!--   <form th:action="@{/register}" th:object="${credentials}" method="POST">
+            	<table>
+            	<tr>
+            		 <!--<div th:if="${#fields.hasGlobalErrors()}">
+  					<p th:each="err : ${#fields.globalErrors()}" th:text="${err}">...</p>
+				</div>	
+                	<td >Email: </td>
+                	<td> <input type="text" name="username" id="username"  required th:field="*{username}"/></input> </td>
+                	 <td th:if="${#fields.hasErrors('username')}"
+                	th:errors="*{username}" th:style="'color:red'"></td> 
+                	
+                </tr>
+                <!--<p th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Name Error</p>-->
+                <!--  <ul>
+        				<li th:each="err : ${#fields.errors('username')}" th:text="${err}" class="error" />
+   				</ul>
+   				<tr>
+                	<td >Password:</td>
+                	<td> <input type="password" name="password" id="password"  required th:field="*{password}"/></input> </td>
+                	<td 
+               		  th:each="err : ${#fields.errors('password')}" th:text="${err}" th:style="'color:red'"></td>
+                </tr>
+                <!--  <ul>
+        			<li th:each="err : ${#fields.errors('password')}" th:text="${err}" class="error" />
+   				</ul>  
+             
+				<tr>
+				<td >
+                <button type="submit" class="btn btn-primary">Registrati</button>
+                </td>
+           		</tr>
+            
+            </table>
+            <a th:href="@{/login}" href="login.html" > oppure accedi</a>
+           </form> -->
+
+        </div>
+    </div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+</body>
+
+</html>

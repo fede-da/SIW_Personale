@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/artist.css" th:href="@{/css/artist.css}">
+</head>
+<body>
+<div class="grid">
+    <div class="artworks">
+        <!--/*@thymesVar id="artwork" type="it.uniroma3.siw.ProgettoSIW.model.Artwork"*/-->
+        <div th:each="artwork : ${artworks}" class="image" style="background-image: url('../static/images/tagli.jpeg')"
+             th:style="'background-image: url('+ '/images/' + ${artwork.photoURL}+');'">
+            <a th:href="@{'/artwork' + '/' + ${artwork.id}}">
+                <div class="image-detail">
+                    <h1 th:text="*{artwork.title}">Taglio 1</h1>
+                </div>
+            </a>
+        </div>
+
+    </div>
+    <div class="bio">
+        <a onclick="goBack()">← Torna indietro</a>
+        <h1 th:text="|${artist.name} ${artist.surname}|">Lucio Fontana</h1>
+
+        <b th:text="*{artist.nationality}">Argentina <span th:text="*{artist.dateOfBirth}">19/02/1899</span> <span
+                th:text="*{artist.dateOfDeath}">- 7/09/1968</span></b>
+
+        <p th:text="*{artist.biography}">Born in Rosario, province of Santa Fe, Argentina to Italian immigrant parents,
+            he was the son of the sculptor
+            Luigi Fontana (1865 — 1946).[2][3] Fontana spent the first years of his life in Argentina and then was sent
+            to
+            Italy in 1905, where he stayed until 1922, working as a sculptor with his father, and then on his own.
+            Already
+            in 1926, he participated in the first exhibition of Nexus, a group of young Argentine artists working in
+            Rosario
+            de Santa Fé.[4]
+        </p>
+
+        <div class="photo-container">
+            <div class="artist-photo">
+                <img src="../static/images/fontana.jpeg" alt="lucio fontana"
+                     th:src="@{/images/{image}(image=${artist.photoFileName})}">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    function goBack() {
+        window.history.back()
+    }
+</script>
+</body>
+</html>

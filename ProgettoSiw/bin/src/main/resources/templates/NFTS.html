@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/artworks.css" th:href="@{/css/artworks.css}">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="top">
+    <nav>
+        <a th:href="@{/index}">
+            <h1>Galleria Nazionale</h1>
+        </a>
+
+        <div class="scale-up-center">
+            <a th:href="@{/artists}">Artisti</a>
+        </div>
+        <div class="scale-up-center">
+            <a th:href="@{/collections}">Collezioni</a>
+        </div>
+
+        <div class="scale-up-center">
+            <a th:href="@{/artworks}">Opere</a>
+        </div>
+
+        <div class="scale-up-center">
+            <a th:href="@{/login}">Area riservata</a>
+        </div>
+
+    </nav>
+
+    <h1>Tuttle le opere</h1>
+</div>
+
+<div class="grid">
+    <!--/*@thymesVar id="artwork" type="it.uniroma3.siw.ProgettoSIW.model.Artwork"*/-->
+    <a th:each="artwork : ${artworks}" th:href="'/artwork/'+${artwork.id}">
+        <img src="../static/images/spatialism4.jpeg" th:src="@{/images/{image}(image=${artwork.photoURL})}" alt="">
+    </a>
+
+</div>
+
+</body>
+</html>

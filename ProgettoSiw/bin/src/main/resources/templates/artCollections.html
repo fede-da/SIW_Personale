@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/artists.css" th:href="@{/css/artists.css}">
+    <title>Collezioni</title>
+</head>
+<body>
+<div class="grid">
+    <nav>
+        <a th:href="@{/index}">
+            <h1>Galleria Nazionale</h1>
+        </a>
+
+        <div class="scale-up-center">
+            <a th:href="@{/artists}">Artisti</a>
+        </div>
+        <div class="scale-up-center">
+            <a th:href="@{/collections}">Collezioni</a>
+        </div>
+
+        <div class="scale-up-center">
+            <a th:href="@{/artworks}">Opere</a>
+        </div>
+
+        <div class="scale-up-center">
+            <a th:href="@{/login}">Area riservata</a>
+        </div>
+    </nav>
+
+    <div class="artists">
+        <form action="" method="post">
+            <div>
+                <label for="artist"></label>
+                <input type="text" name="artistSurname" id="artist" placeholder="🔎 es. Lucio Fontana">
+                <button type="submit">Cerca →</button>
+            </div>
+        </form>
+
+        <!--/*@thymesVar id="artCollection" type="it.uniroma3.siw.ProgettoSIW.model.ArtCollection"*/-->
+        <div class="all-artists">
+            <div th:each="artCollection : ${artCollections}">
+                <hr>
+                <div class="artist-info">
+                    <a href="artist.html" th:href="'/collection/'+${artCollection.id}">
+                        <h3 th:text="|${artCollection.name}|">Spazialismo</h3>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
